@@ -1,50 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natalia Ramírez</title>
-    <link rel="stylesheet" href="https://use.typekit.net/abl0iuf.css">
-    <link rel="stylesheet" href="https://use.typekit.net/abl0iuf.css">
-    <link rel="icon" type="image/png" href="./img/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
-    <link rel="shortcut icon" href="./img/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="Ram__tora " />
-    <link rel="manifest" href="./img/site.webmanifest" />
-    <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="https://use.typekit.net/abl0iuf.css">
+<link rel="stylesheet" href="css/style.css">
 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Natalia Ramírez</title>
+  <meta
+    name="description"
+    content="Landing personal tipo link hub de Natalia Ramírez: Computación Creativa, diseño digital e interactividad."
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-    <header>
-        <h1>Hola mundo</h1>
-    </header>
-    <main>
-         <section>
-        <h2>
-        Mi nombre es Natalia Ramírez y soy estudiante de computación creativa. </h2>
+  <header class="hero" id="top">
+    <div class="hero__content">
+      <p class="hero__kicker">Hola mundo, soy</p>
 
+      <h1 class="hero__title">Natalia Ramírez</h1>
+
+      <p class="hero__tagline">Computación Creativa · Diseño digital e interactividad</p>
+
+      <p class="hero__bio">
+        Me interesa el diseño digital, los sistemas interactivos y la animación digital: proyectos que combinan
+        tecnología y experiencia visual.
+      </p>
+
+      <div class="hero__actions">
+        <a class="button button--primary" href="#links">Ver proyectos</a>
        
-            <h3>Mis artistas favoritos son:</h3>
+      </div>
+    </div>
 
-            <ul>
-                <li>Gustavo Cerati</li>
-                <li>Kendrick Lamar</li>
-                <li>Soda Stereo</li>
-                <li>Mac Miller</li>
-                <li>Daft Punk</li>
-            </ul>
-        </section>
+    <div class="hero__media">
+      <img
+        src="img/profile.jpg"
+        alt="Retrato de Natalia Ramírez"
+        class="profile-image"
+        width="320"
+        height="320"
+        loading="eager"
+        decoding="async"
+      />
+    </div>
+  </header>
 
-        <a target="_blank" href="https://www.instagram.com/ram__tora/">Sígueme en Instagram</a> <br>
-        <a target="_blank" href="https://open.spotify.com/user/ajz32pbqlegfzqv2jc0p95rqz?si=e0e3e213bc8a4f80">Este
-            es mi Spotify</a> <br>
-        <a href="mailto:nramirezc@centro.edu.mx">Envíame un correo</a> <br>
-        <a href="tel:5621464031">Mándame mensaje</a> <br>
-        </h2>
-    </main>
+  <nav class="hub-nav" aria-label="Enlaces principales">
+    <a class="skip-link" href="#links">Saltar a enlaces</a>
+  </nav>
+
+  <main>
+    <section class="links" id="links" aria-label="Enlaces">
+      <h2 class="section-title">Mis links</h2>
+
+      <div class="links__grid">
+        <a
+          class="link-card"
+          href="https://www.instagram.com/ram__tora/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Instagram
+          <span class="link-card__meta">@ram__tora</span>
+        </a>
+
+        <a
+          class="link-card"
+          href="https://open.spotify.com/user/ajz32pbqlegfzqv2jc0p95rqz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Spotify
+          <span class="link-card__meta">Playlists / música</span>
+        </a>
+
+        <a class="link-card" href="mailto:nramirezc@centro.edu.mx">
+          Correo
+          <span class="link-card__meta">nramirezc@centro.edu.mx</span>
+        </a>
+
+        <a
+          class="link-card"
+          href="https://wa.me/525621464031"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          WhatsApp
+          <span class="link-card__meta">Mensaje directo</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+ 
+     <footer class="footer">
+  <p>© <span id="year">2026</span> Natalia Ramírez</p>
+</footer>
+    </p>
 </body>
-
 </html>
