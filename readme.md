@@ -1,23 +1,15 @@
 # RamTora03 · Personal Link Hub
 
-Landing page personal tipo **link hub** pensada como raíz de navegación de mi ecosistema digital.
+Landing page personal tipo link hub creada como raíz de navegación de mi ecosistema digital.
 
 ## Descripción conceptual
 
 Este proyecto concentra mis enlaces sociales y de contacto en una sola interfaz.
-El enfoque principal fue diseñar una experiencia clara y accesible desde móvil, cuidando:
-
-- jerarquía visual
-- estructura semántica
-- layout responsive
-- tipografía y contraste
-- navegación simple y directa
+El enfoque fue trabajar jerarquía visual, semántica HTML, layout responsive, tipografía y accesibilidad.
 
 La sección Hero funciona como primer impacto visual y punto de entrada hacia mis enlaces principales.
 
 ## Captura del Hero
-
-> Coloca aquí tu imagen de captura (ejemplo recomendado: `img/hero-capture.png`).
 
 ![Captura de la sección Hero](img/hero-capture.png)
 
