@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
- <link rel="stylesheet" href="https://use.typekit.net/abl0iuf.css">
-<link rel="stylesheet" href="css/style.css">
-
+  <link rel="stylesheet" href="https://use.typekit.net/abl0iuf.css" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -13,93 +11,114 @@
     content="Landing personal tipo link hub de Natalia Ramírez: Computación Creativa, diseño digital e interactividad."
   />
 
+  <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.svg" />
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="img/favicon/site.webmanifest" />
+
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <header class="hero" id="top">
-    <div class="hero__content">
-      <p class="hero__kicker">Hola mundo, soy</p>
+  <a class="skip-link" href="#links">Saltar a enlaces</a>
 
-      <h1 class="hero__title">Natalia Ramírez</h1>
+  <header class="site-header" id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="hero__kicker">Hola mundo, soy</p>
 
-      <p class="hero__tagline">Computación Creativa · Diseño digital e interactividad</p>
+        <h1 class="hero__title" id="hero-title">Natalia Ramírez</h1>
 
-      <p class="hero__bio">
-        Me interesa el diseño digital, los sistemas interactivos y la animación digital: proyectos que combinan
-        tecnología y experiencia visual.
-      </p>
+        <p class="hero__tagline">Computación Creativa · Diseño digital e interactividad</p>
 
-      <div class="hero__actions">
-        <a class="button button--primary" href="#links">Ver proyectos</a>
-       
+        <p class="hero__bio">
+          Me interesa el diseño digital, los sistemas interactivos y la animación digital: proyectos que combinan
+          tecnología y experiencia visual.
+        </p>
       </div>
-    </div>
 
-    <div class="hero__media">
-      <img
-        src="img/profile.jpg"
-        alt="Retrato de Natalia Ramírez"
-        class="profile-image"
-        width="320"
-        height="320"
-        loading="eager"
-        decoding="async"
-      />
-    </div>
+      <div class="hero__media">
+        <img
+          src="img/profile.jpg"
+          alt="Retrato de Natalia Ramírez"
+          class="profile-image"
+          width="320"
+          height="320"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    </section>
   </header>
 
-  <nav class="hub-nav" aria-label="Enlaces principales">
-    <a class="skip-link" href="#links">Saltar a enlaces</a>
-  </nav>
-
   <main>
-    <section class="links" id="links" aria-label="Enlaces">
+    <section class="links" id="links" aria-label="Enlaces principales">
       <h2 class="section-title">Mis links</h2>
 
       <div class="links__grid">
-        <a
-          class="link-card"
-          href="https://www.instagram.com/ram__tora/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Instagram
-          <span class="link-card__meta">@ram__tora</span>
-        </a>
+        <article class="link-item" aria-labelledby="link-instagram">
+          <a
+            class="link-card"
+            id="link-instagram"
+            href="https://www.instagram.com/ram__tora/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir perfil de Instagram de Natalia en una pestaña nueva"
+            title="Instagram"
+          >
+            Instagram
+            <span class="link-card__meta">@ram__tora</span>
+          </a>
+        </article>
 
-        <a
-          class="link-card"
-          href="https://open.spotify.com/user/ajz32pbqlegfzqv2jc0p95rqz"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Spotify
-          <span class="link-card__meta">Playlists / música</span>
-        </a>
+        <article class="link-item" aria-labelledby="link-spotify">
+          <a
+            class="link-card"
+            id="link-spotify"
+            href="https://open.spotify.com/user/ajz32pbqlegfzqv2jc0p95rqz"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir perfil de Spotify de Natalia en una pestaña nueva"
+            title="Spotify"
+          >
+            Spotify
+            <span class="link-card__meta">Playlists / música</span>
+          </a>
+        </article>
 
-        <a class="link-card" href="mailto:nramirezc@centro.edu.mx">
-          Correo
-          <span class="link-card__meta">nramirezc@centro.edu.mx</span>
-        </a>
+        <article class="link-item" aria-labelledby="link-mail">
+          <a
+            class="link-card"
+            id="link-mail"
+            href="mailto:nramirezc@centro.edu.mx"
+            aria-label="Enviar correo a Natalia"
+            title="Correo electrónico"
+          >
+            Correo
+            <span class="link-card__meta">nramirezc@centro.edu.mx</span>
+          </a>
+        </article>
 
-        <a
-          class="link-card"
-          href="https://wa.me/525621464031"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          WhatsApp
-          <span class="link-card__meta">Mensaje directo</span>
-        </a>
+        <article class="link-item" aria-labelledby="link-whatsapp">
+          <a
+            class="link-card"
+            id="link-whatsapp"
+            href="https://wa.me/525621464031"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir chat de WhatsApp con Natalia en una pestaña nueva"
+            title="WhatsApp"
+          >
+            WhatsApp
+            <span class="link-card__meta">Mensaje directo</span>
+          </a>
+        </article>
       </div>
     </section>
   </main>
 
- 
-     <footer class="footer">
-  <p>© <span id="year">2026</span> Natalia Ramírez</p>
-</footer>
-    </p>
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Natalia Ramírez</p>
+  </footer>
 </body>
 </html>
